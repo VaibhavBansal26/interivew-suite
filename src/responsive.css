@@ -1,0 +1,187 @@
+@media (min-width: 761px) and (max-width: 1050px) {
+  .side nav button {
+    font-size: 0;
+    justify-content: center;
+  }
+  .side nav button svg {
+    font-size: 20px;
+  }
+  .top {
+    gap: 9px;
+  }
+  .title {
+    min-width: 220px;
+  }
+  .util,
+  .end {
+    font-size: 0;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    justify-content: center;
+  }
+  .util svg,
+  .end svg {
+    font-size: 18px;
+  }
+  .timer i {
+    width: 90px;
+  }
+  .node6 {
+    left: 69%;
+  }
+  .dsagrid {
+    grid-template-columns: 30% 45% 25%;
+  }
+  .interviewer {
+    display: block;
+    padding: 15px 10px;
+  }
+  .interviewer .steps {
+    display: none;
+  }
+}
+
+.editor footer.failed {
+  color: #ff9c8f;
+}
+.history {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 46px 54px;
+}
+.history > small {
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+}
+.history > h1 {
+  font-size: 34px;
+  margin: 8px 0;
+}
+.history > p {
+  color: var(--muted);
+}
+.empty {
+  margin-top: 32px;
+  border: 1px solid var(--line);
+  background: white;
+  border-radius: 12px;
+  padding: 54px;
+  text-align: center;
+  color: var(--muted);
+}
+.empty h2 {
+  color: var(--navy);
+}
+.historylist {
+  display: grid;
+  gap: 14px;
+  margin-top: 30px;
+}
+.historylist article {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 20px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+}
+.historylist h2 {
+  margin: 5px 0;
+  font-size: 19px;
+}
+.historylist p {
+  color: var(--muted);
+  font-size: 13px;
+}
+.scorechip {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--navy);
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.tags {
+  display: flex;
+  gap: 8px;
+}
+.tags span {
+  background: #edf0f3;
+  border-radius: 14px;
+  padding: 5px 9px;
+  font-size: 11px;
+}
+.board > header > span {
+  color: #8fa8ba;
+  font-size: 10px;
+  margin-left: auto;
+}
+.board .react-flow {
+  background: #0b1b2b;
+}
+.board .react-flow__node-default {
+  white-space: pre-line;
+  width: 160px;
+  padding: 14px 10px;
+  border: 1px solid #4cc8ec;
+  border-radius: 7px;
+  background: #10283b;
+  color: #e7f8ff;
+  font:
+    12px/1.45 Manrope,
+    sans-serif;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16);
+}
+.board .react-flow__node.selected {
+  outline: 2px solid #68ddff;
+}
+.board .react-flow__edge-path {
+  stroke: #59c8ea;
+  stroke-width: 2;
+}
+.board .react-flow__handle {
+  background: #68ddff;
+  border-color: #0b1b2b;
+}
+.board .react-flow__controls button {
+  background: #10283b;
+  color: #dff7ff;
+  border-color: #29445a;
+}
+.board .react-flow__minimap {
+  background: #0e2133;
+  border: 1px solid #29445a;
+  width: 140px !important;
+  height: 96px !important;
+}
+.designmode {
+  display: flex;
+  gap: 7px;
+  margin: 12px 0 16px;
+}
+.designmode button {
+  border: 1px solid #344d62;
+  border-radius: 7px;
+  background: transparent;
+  color: #9db4c5;
+  padding: 7px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.designmode button[aria-pressed="true"] {
+  border-color: #5cd7fa;
+  background: #123348;
+  color: #dff8ff;
+}
+@media (max-width: 760px) {
+  .history {
+    padding: 28px 20px;
+  }
+}
